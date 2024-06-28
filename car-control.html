@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PEACE CAR</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body class="bg-white">
+    <header class="header-sub block">
+      <div class="align triple bg-f8 border-bottom">
+        <a class="btn-back" href="javascript:window.history.back();"></a>
+        <h2>정기세차 신청</h2>
+      </div>
+    </header>
+    <main class="main pb150">
+      <section class="content">
+        <div class="vehicle-management align both vm pt26">
+          <a class="select ico1" href="">아반떼(CN7)<br> 하이브리드 인스퍼레이션</a>
+        </div>
+        <div class="title-main align vm pt8">
+          <h3 class="h3">123가 4567</h3>
+        </div>
+        <div class="list-type7-wrap align vm center">
+          <ul class="list-type7">
+            <li class="align column">
+              <div class="img-wrap align vm"><img src="images/ico_lock_door.svg" alt=""></div>
+              <div class="mt8 txt-center text-type4 fz12 fw500">문 잠금</div>
+            </li>
+            <li class="align column">
+              <div class="img-wrap align vm"><img src="images/ico_turn.svg" alt=""></div>
+              <div class="mt8 txt-center text-type4 fz12 fw500">시동 켜기</div>
+            </li>
+            <li class="align column">
+              <div class="img-wrap align vm"><img src="images/ico_open_door.svg" alt=""></div>
+              <div class="mt8 txt-center text-type4 fz12 fw500">문 열기</div>
+            </li>
+            <li class="align column">
+              <div class="img-wrap align vm"><img src="images/ico_turn_off.svg" alt=""></div>
+              <div class="mt8 txt-center text-type4 fz12 fw500">시동 끄기</div>
+            </li>
+            <li class="align column">
+              <div class="img-wrap align vm"><img src="images/ico_emergency_lights.svg" alt=""></div>
+              <div class="mt8 txt-center text-type4 fz12 fw500">비상등</div>
+            </li>
+            <li class="align column">
+              <div class="img-wrap align vm"><img src="images/ico_horn.svg" alt=""></div>
+              <div class="mt8 txt-center text-type4 fz12 fw500">비상등/경적</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- 네비 하단영역 -->
+    <div class="nav-foot">
+      <div class="nav-foot__layer">
+        <div class="nav-foot__mode">
+          <a class="btn-close-layer btn-weighbridge" href="weight-shot.html">계근대</a>
+          <a class="btn-close-layer btn-lame" href="weight-shot.html">앉은뱅이</a>
+        </div>
+      </div>
+      <div class="writing-explanation">작성중인 계량증명서가 있습니다</div>
+      <button 
+      class="btn-select" 
+      type="button" 
+      onclick="location.href='car-control.html'"></button>
+      <nav class="nav-foot__cont">
+        <ul>
+          <li class="ico-main"><a href="index.html">메인</a></li>
+          <li class="ico-board"><a href="car-wash.html">세차</a></li>
+          <li class="ico-doc"><a href="around.html">주변</a></li>
+          <li class="ico-mypage"><a href="more-view.html">더보기</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="layer"></div>
+    <dialog class="dialog" close>
+      <p>인증이 완료되었습니다.</p>
+      <button class="btn-confirm" type="button">확인</button>
+    </dialog>
+    <dialog class="dialog dialog6 access-rights" close>
+      <div>
+        <strong class="text-center pb10">앱 접근권한 안내</strong>
+        <div class="txt-type5 text-center pb30">인증이 완료되었습니다.</div>
+        <ul class="access-rights__list">
+          <li>
+            <a href="" class="access-rights__link align vm ico1">
+              <div class="">
+                <div class="txt-type3">카메라 (필수)</div>
+                <div class="txt-type4">무게 측량 및 차량번호 촬영을 위한 권한</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="" class="access-rights__link align vm ico2">
+              <div class="">
+                <div class="txt-type3">카메라 (필수)</div>
+                <div class="txt-type4">무게 측량 및 차량번호 촬영을 위한 권한</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="" class="access-rights__link align vm ico3">
+              <div class="">
+                <div class="txt-type3">카메라 (필수)</div>
+                <div class="txt-type4">무게 측량 및 차량번호 촬영을 위한 권한</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="" class="access-rights__link align vm ico4">
+              <div class="">
+                <div class="txt-type3">카메라 (필수)</div>
+                <div class="txt-type4">무게 측량 및 차량번호 촬영을 위한 권한</div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="" class="access-rights__link align vm ico5">
+              <div class="">
+                <div class="txt-type3">카메라 (필수)</div>
+                <div class="txt-type4">무게 측량 및 차량번호 촬영을 위한 권한</div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn-confirm">확인</button>
+    </dialog>
+  </body>
+  <script src="js/button.js"></script>
+  <script src="js/navFoot.js"></script>
+</html>
